@@ -1,8 +1,10 @@
 
 # DSTI chat application
 
-This chat application will allow us to communicate toguether in an insecure way.
 [![Build Status](https://travis-ci.org/bngom/dsti-devops-2020-chat.svg?branch=master)](https://travis-ci.org/bngom/dsti-devops-2020-chat)
+
+
+This chat application will allow us to communicate together in an insecure way.
 
 ## Usage
 
