@@ -8,3 +8,11 @@ script:
 - npm install
 - echo 'Testing'
 - npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: 
+    secure: kyKKnuoNdq95hztXZOCmKU4CDjJ4jyIpoTeUlIi9nFpjgO19B0bGGRmx4h+OCGFRSOt3rf1eyMo5cUkZvQH2s0+MGZYICz92NBY+1nANHT1IsKHV9cyn9SbCHxsmvTxPiVbVqdu5X7LnEyaZIDdfZ8S/ZhVgEvr0Ur87LiQARvHlNAFgVmY20B0/35LcV9WBa3l0c9ORnNCSLsmHhW0d/CeGUdcjqrvwzyVM/06xEAAwxGR9sKRJFCFX6AYvfHhc0NlUY1Q9BFyBQRchtUWOMJmQk+OJXU+W8mcu2Z5u8oAe4bz8/+t1nEE4msVO/M7Klh4WTSNgJLYxEXAF8OQiPq9sIZX87LImRcf7zuRCAxCa3ZJbUMkjKy5bTLScTZ9+FoVVRS9HVyX7fvF6J0ITN0F2BKR2ChYEBuESV3vIMlHryN3D6RTlpjsc10ua1rXGoyCGTB1yHhG9dkB44fcmvm2i+iR7PrghlqQcNH5ri/Bwe6tktRS1H/iYHyLn9WTIx8YurSrPH7fKfRFItGsc368WzBi4Lo6nSWXxax5tt1G2554+fPc4BQyvijWf2HRsE765pZLaT1lQsohCFfA0hOTbN7j9i+64aN2Qn2tgKP9CVm6BvXzrEc2lJP+dVKxhFyhI4authn2dnEv+Lba43KlBRQgNKquDhCL5sQ1S0NQ=
+  app: dsti-devops-2020-chat-ogidism
+  on:
+    repo: adeyemi-ogidi/dsti-devops-2020-chat
