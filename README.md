@@ -9,6 +9,13 @@ This chat application will allow us to communicate toguether in an insecure way.
 
 Execute `./bin/chat` from your terminal, it will display all the available commands. Running `./bin/chat user create --help` print the help of a particular command.
 
+### Installation
+'''
+git clone https://github.com/adeyemi-ogidi/dsti-devops-2020-chat
+cd dsti-devops-2020-chat
+npm install
+'''
+
 ### Using the web application
 
 Start the web server with `./bin/chat server start` and stop it by pressing  `ctrl c`.
